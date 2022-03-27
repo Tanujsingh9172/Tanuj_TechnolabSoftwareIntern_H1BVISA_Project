@@ -40,7 +40,8 @@ st_lottie(lottie_data, key="data")
 
 
 ### --- LOAD DATAFRAME
-excel_file = r"C:\Users\ASUS--VIVOBOOK\Downloads\Tanuj_TechnolabSoftwareIntern_H1BVISA_Project\demofile.xlsx"
+# excel_file = r"C:\Users\ASUS--VIVOBOOK\Downloads\Tanuj_TechnolabSoftwareIntern_H1BVISA_Project\demofile.xlsx"
+excel_file = "demofile.xlsx"
 sheet_name = 'visa'
 
 
@@ -147,7 +148,8 @@ df_grouped = df_grouped.reset_index()
 
 #PLOT IMAGE AND BARPLOT
 col1, col2 = st.columns(2)
-image = Image.open(r"C:\Users\ASUS--VIVOBOOK\Downloads\Tanuj_TechnolabSoftwareIntern_H1BVISA_Project\h-1b visa image.jpg")
+# image = Image.open(r"C:\Users\ASUS--VIVOBOOK\Downloads\Tanuj_TechnolabSoftwareIntern_H1BVISA_Project\h-1b visa image.jpg")
+image = Image.open("h-1b visa image.jpg")
 print(image)
 col1.image(image,
         caption='PROJECT CREATOR TANUJ',
