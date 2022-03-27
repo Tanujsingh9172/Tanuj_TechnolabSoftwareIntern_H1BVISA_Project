@@ -162,6 +162,14 @@ lottie_visa = load_lottieurl(lottie_url_visa)
 
 st_lottie(lottie_visa, key="visa")
 
+#4th lottie show bar chart
+lottie_url_show = "https://assets7.lottiefiles.com/private_files/lf30_0dui3jqg.json"
+lottie_show = load_lottieurl(lottie_url_show)
+
+st_lottie(lottie_show, key="show")
+
+
+
 # --- PLOT BAR CHART
 bar_chart = px.bar(df_grouped,
                    x='VISA_CLASS',
@@ -188,14 +196,30 @@ pie_chart = px.pie(df_v,
 
 st.plotly_chart(pie_chart)
 
-#4th animated lottie file for passport 
+#5th animated lottie file for passport 
 
 lottie_url_passport = "https://assets10.lottiefiles.com/packages/lf20_8isnqscj.json"
 lottie_passport = load_lottieurl(lottie_url_passport)
 
 st_lottie(lottie_passport, key="passport")
 
-#5th project ending thanksgiving note 
+#6th lottie animation of aeroplane 
+lottie_url_air = "https://assets5.lottiefiles.com/packages/lf20_civw5ajz.json"
+lottie_air = load_lottieurl(lottie_url_air)
+
+st_lottie(lottie_air, key="air")
+
+#7 animation of worlds tour 
+lottie_url_tour = "https://assets5.lottiefiles.com/packages/lf20_ccdz2hzz.json"
+lottie_tour = load_lottieurl(lottie_url_tour)
+
+st_lottie(lottie_tour, key="tour")
+
+
+
+
+
+#8th project ending thanksgiving note 
 lottie_url_thanks = "https://assets10.lottiefiles.com/packages/lf20_j0qwy5q5.json"
 lottie_thanks = load_lottieurl(lottie_url_thanks)
 
